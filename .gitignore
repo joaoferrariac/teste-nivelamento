@@ -1,0 +1,51 @@
+# Arquivos gerais a ignorar
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.env
+.env.local
+.env.*.local
+
+# Teste 1 - Web Scraping
+01-web-scraping/output/
+
+# Teste 2 - Transformação de dados
+02-transformacao-dados/output/
+02-transformacao-dados/input/anexo_i.pdf
+
+# Teste 3 - Banco de dados
+03-banco-dados/data/
+!03-banco-dados/data/README.md  # Mantém o README se existir
+
+# Teste 4 - API
+04-api/backend/data/operadoras_ativas.csv
+04-api/frontend/node_modules/
+04-api/frontend/dist/
+04-api/frontend/.env
+04-api/frontend/.env.local
+04-api/frontend/.env.*.local
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.python-version
+venv/
+env/
+.venv/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/
