@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS ans_db;
+USE ans_db;
